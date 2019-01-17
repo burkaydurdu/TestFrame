@@ -4,9 +4,10 @@ Pod::Spec.new do |s|
   s.version = "0.0.1"
   s.license = "MIT"
 
-  s.author        = { "Burkay Durdu" => "burkaydurdu@outlook.com" }
+  s.author       = { "Burkay Durdu" => "burkaydurdu@outlook.com" }
+  s.source       = { :git => "https://github.com/burkaydurdu/TestFrame.git" }
   s.source_files = "TestFrame", "TestFrame/**/*.{h, swift}"
-  s.resources  = ["TestFrame/**/*.xib", "TestFrame/**/*.xcassets", "TestFrame/*.lproj]"
+  s.resources    = ["TestFrame/**/*.xib", "TestFrame/**/*.xcassets", "TestFrame/*.lproj]"
   
    s.dependency 'Alamofire', '~> 4.0'
    s.dependency 'AlamofireObjectMapper', '~> 5.0'
