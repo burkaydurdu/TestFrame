@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 @objc public class Test: NSObject {
   @objc public static func test() -> UINavigationController {
